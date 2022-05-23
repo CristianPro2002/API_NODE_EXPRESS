@@ -1,0 +1,25 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "El paseo",
+    "date": "2021-10-03",
+    "type": "comedia"
+}
+
+###
+DELETE http://localhost:9000/api/2 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "El paseo 2",
+    "date": "2022/10/03",
+    "type": "comedia"
+}
